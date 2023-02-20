@@ -5,11 +5,196 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/css/stile.css">
+	<title>site1_portfolio</title>
 </head>
 
 <body>
+	<div class="wrapper">
+		<header class="header">
+			<a href="#"><img src="/img/company-logo-white.svg" alt="logo" class="header__logo"></a>
+			<h1 class="text-h1">partner with konstuct</h1>
+			<p class="header__p">An award-winning construction management firm</p>
+			<p class="header__p_up">scroll down</p>
+		</header>
+		<section class="nav">
+			<div class="container">
+				<div class="nav__flex">
+					<a href="#"><img src="/img/company-logo-dark.svg" alt="" class="nav__flex-logo"></a>
+					<div class="burger">
+						<span></span>
+					</div>
+					<nav class="nav__flex-items">
+						<ul class="nav__list">
+							<li><a href="#" class="nav-item nav-item_mg1">home</a></li>
+							<li><a href="#" class="nav-item nav-item_mg2">about</a></li>
+							<li><a href="#" class="nav-item nav-item_mg3">services</a></li>
+							<li><a href="#" class="nav-item nav-item_mg4">work</a></li>
+							<li><a href="#" class="nav-item">contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</section>
+		<section class="about">
+			<div class="container">
+				<h4 class="about__h4">our story</h4>
+				<div class="about__flex-wrapper">
+					<div class="about__text">
+						<p class="about__text_big">Founded in 2011 by John Mathew Smith, <span>Konstruct</span> has become the
+							number one construction management firm</p>
+						<p class="about__text-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+							nibh
+							euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer
+							adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+					</div>
+					<div class="about__grid">
+						<div class="about__grid-item">
+							<img class="about__img" src="/img/plan.png" alt="plan">
+							<p class="about__grid-item-text">we<br>plan</p>
+						</div>
+						<div class="about__grid-item">
+							<img class="about__img" src="/img/manage.png" alt="manage">
+							<p class="about__grid-item-text">we<br>manage</p>
+						</div>
+						<div class="about__grid-item">
+							<img class="about__img" src="/img/build.png" alt="build">
+							<p class="about__grid-item-text">we<br>build</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="services">
+			<div class="container">
+				<div class="services__wrapper">
+					<div class="services__flex-items_up">
+						<h4 class="services__h4">our capabilities</h4>
+						<p class="services__p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+							euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+						<a class="services__btn" href="#">all services</a>
+					</div>
+					<div class="services__grid-items_down">
+						<div class="services__grid-item">
+							<img src="/img/services_icon_project.png" alt="project" class="services__icon">
+							<h5 class="services__grid-item-h5">project and construction management</h5>
+							<p class="services__grid-item-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+								diam
+								nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+						</div>
+						<div class="services__grid-item">
+							<img src="/img/services_icon_audit.png" alt="audit" class="services__icon">
+							<h5 class="services__grid-item-h5">structure audit and maintenance</h5>
+							<p class="services__grid-item-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+								diam
+								nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+						</div>
+						<div class="services__grid-item">
+							<img src="/img/services_icon_factory.png" alt="factory" class="services__icon">
+							<h5 class="services__grid-item-h5">factory construction and modeling</h5>
+							<p class="services__grid-item-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+								diam
+								nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="get">
+			<div class="container">
+				<div class="get__wrapper">
+					<h2 class="get__h2">Want to build something amazing?</h2>
+					<a class="get__btn" href="#">get in touch</a>
+				</div>
+			</div>
+		</section>
+		<section class="newsletter">
+			<div class="container">
+				<div class="newsletter__wrapper">
+					<div class="newsletter__grid">
+						<h4 class="newsletter__h4">Newsletter Signup</h4>
+						<form class="newsletter__form" action="" method="post">
+							<input type="text" name="email" class="newsletter__input" placeholder="test@youremail.com"
+								maxlength="60" required>
+							<button class="newsletter__btn" type="submit">signup</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer class="footer">
+		<div class="footer__up-wrap">
+			<div class="container">
+				<div class="footer__flex">
+					<div class="footer__flex-logo">
+						<h6 class="footer-h6">company</h6>
+						<img src="/img/company-logo-white.svg" alt="logo" class="footer-logo">
+						<p class="footer-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+							euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+					</div>
+					<div class="footer__nav">
+						<h6 class="footer-h6">links</h6>
+						<div class="footer__flex-nav">
+							<div class="footer__flex-nav-wrap">
+								<ul class="footer__list">
+									<li><a href="#" class="footer__link">home</a></li>
+									<li><a href="#" class="footer__link">about</a></li>
+									<li><a href="#" class="footer__link">services</a></li>
+									<li><a href="#" class="footer__link">projects</a></li>
+									<li><a href="#" class="footer__link">contact us</a></li>
+								</ul>
+							</div>
+							<div class="footer__flex-nav-wrap">
+								<ul class="footer__list">
+									<li><a href="#" class="footer__link">faq</a></li>
+									<li><a href="#" class="footer__link">terms</a></li>
+									<li><a href="#" class="footer__link">careers</a></li>
+								</ul>
+							</div>
+							<div class="footer__flex-nav-wrap">
+								<ul class="footer__list">
+									<li><a href="#" class="footer__link">blog</a></li>
+									<li><a href="#" class="footer__link">partners</a></li>
+									<li><a href="#" class="footer__link">news</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="footer__flex-cont">
+						<h6 class="footer-h6">contact us</h6>
+						<p class="footer-text footer-text-cont_pg">213 Baker Street<br>Oriel City Kounty<br>7000
+							KNW,<br>Kountry
+							Name<br><br>
+							<a href="tel:+239942334022">+23 994 233 4022</a><br><br>
+							<a href="mailto: info@konstruct.com">info@konstruct.com</a>
+						</p>
+					</div>
+					<div class="footer__flex-social">
+						<a class="footer__flex-social-link" href="#"><img class="footer__social-icon" src="/img/f-icon.png"
+								alt="f-icon"></a>
+						<a class="footer__flex-social-link" href="#"><img class="footer__social-icon" src="/img/tw-icon.png"
+								alt="tw-icon"></a>
+						<a class="footer__flex-social-link" href="#"><img class="footer__social-icon" src="/img/g-icon.png"
+								alt="g-icon"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__down-wrap">
+			<div class="container">
+				<div class="footer__wrap-copy">
+					<p class="footer__wrap-copy-text">&copy;2017 Konstruct Inc. Designed by Jane Kathryn Teo</p>
+				</div>
+			</div>
+		</div>
+	</footer>
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="/js/my.js"></script>
 </body>
 
 </html>
